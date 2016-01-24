@@ -36,10 +36,10 @@ shinyUI(
                             column(4,
                                 h4("Predictor"),
                                 hr(),
-                                h6("The phrase you typed:"),
-                                wellPanel(span(textOutput("current"),style="color:#999999")),
                                 h6("List of top results:"),
-                                wellPanel(span(textOutput("value"),style="color:#000000"))
+                                wellPanel(span(textOutput("value"),style="color:#000000")),
+                                h6("The phrase you typed:"),
+                                wellPanel(span(textOutput("current"),style="color:#999999"))
                                 ))),
                     tabPanel("Generator",
                         fluidRow(
@@ -77,10 +77,10 @@ shinyUI(
                         column(4,
                             h4("Generator"),
                             hr(),
-                            h6("The phrase you typed:"),
-                            wellPanel(span(textOutput("phrase"),style="color:#999999")),
                             h6("The phrase generated:"),
-                            wellPanel(span(textOutput("babble"),style="color:#000000"))
+                            wellPanel(span(textOutput("babble"),style="color:#000000")),
+                            h6("The phrase you typed:"),
+                            wellPanel(span(textOutput("phrase"),style="color:#999999"))
                             )
                         )
                     )
