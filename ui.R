@@ -276,7 +276,8 @@ shinyUI(
                     p("- ",a("A model to predict words",href="http://www.modsimworld.org/papers/2015/Natural_Language_Processing.pdf"),
                     "An interesting document precisely of the project at hand.",align="justify"),
                     p("- ",a("xkcd",href="https://xkcd.com/"),"If you need a laugh to keep you going. I have found two comic strips quite 
-                    related to the subject",a("regex",href="https://xkcd.com/208/"), "&" ,a("SwiftKey.",href="https://xkcd.com/1068/"),align="justify")
+                    related to the subject",a("regex",href="https://xkcd.com/208/"), "&" ,a("SwiftKey.",href="https://xkcd.com/1068/"),align="justify"),
+                    p("- ",a("NLP_Capstone GitHub",href="https://github.com/luislundquist/NLP_Capstone.git"),"This project's documentation on GitHub",align="justify")
                     )
                   ) 
                 )
@@ -284,11 +285,7 @@ shinyUI(
          ),
 
         tabPanel("Data Exploration",tags$head(includeCSS("styles.css")),
-            #tabsetPanel(type="tabs",
-                #tabPanel("Milestone Report",
                     includeMarkdown("beta2.md")
-                        #)
-                    #)
                 )                
             )
         )
