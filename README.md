@@ -1,7 +1,8 @@
 # NLP_Capstone
 Coursera NLP Capstone Project
 
-Files description
+Files description:
+
 1. functions.R : All functions used and needed for the project, from preparing data to inside app algorithms.
 
 2. data_handling.R : Sequence of transformations from raw data to process data used by the app.
