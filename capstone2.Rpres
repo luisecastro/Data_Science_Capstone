@@ -31,7 +31,7 @@ Main characteristics:
 
 </justify>
 <br>
-<center>
+<center>For more detailed information visit:
 [Predictor app link](https://luislundquist.shinyapps.io/coursera_capstone/)</center>
 </code></small>
 
@@ -53,7 +53,7 @@ Bonus characteristics:
 - No external libraries, <b>easier to update and patch</b> without depending on 3rd parties, having <b>full access to code</b> and documentation.
 
 </justify>
-<center>
+<center>For more detailed information visit: 
 [Predictor app link](https://luislundquist.shinyapps.io/coursera_capstone/)</center>
 </code></small>
 
@@ -70,7 +70,7 @@ left: 60%
 ![generator](screen5.png)
 
 ***
-<br><br>
+<br>
 <b>Predictor
 
 <font color="orange">- </font>Navigation tabs
@@ -104,15 +104,14 @@ Word prediction app manual
 ========================================================
 title: false
 type: prompt
-<code><center><h2>Additional information</h2>
-<small></center>
-<justify>
-- App was developed in RStudio using <b>R, Markdown, Shiny, HTML and a bit of CSS.</b>
-- Special thanks to <b>Roger D. Peng, Brian Caffo and Jeff Leek</b> for this amazing course.
-- <b>Thank you</b>, that are reading this and helped me thrive through the course.
-</justify>
+<code><small>
+Data Handling / App Flow
 
+![data](data_handling.png)
+![flow](workflow.png)
 
-<center>![wordmap](wordmap.png)</center>
+Backoff Algorithm
+![backoff](backoff.png)
 
+Thanks to <b>Roger D. Peng, Brian Caffo and Jeff Leek</b> for this amazing course and <b>thank You</b>, for helping me thrive through the course.
 </small></code>
