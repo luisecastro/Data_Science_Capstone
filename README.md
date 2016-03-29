@@ -1,5 +1,4 @@
-# NLP_Capstone
-Coursera NLP Capstone Project
+# Coursera Capstone Project
 
 Files description:
 
